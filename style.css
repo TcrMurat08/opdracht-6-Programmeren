@@ -1,0 +1,46 @@
+body {
+    font-family: Arial;
+    background-color: #eeeeee;
+}
+
+h1 {
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+.tekst {
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+}
+
+td:nth-child(3) {
+    text-align: left;
+    font-weight: bold;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+}
+
+tr:hover {
+    background-color: #eeeeee;
+}
